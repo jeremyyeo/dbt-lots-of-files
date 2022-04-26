@@ -17,7 +17,6 @@ sources:
       - name: my_source_reticulatoramose
       - name: my_source_sneest
       - name: my_source_occupy
-      - name: my_source_fibrocyte
       - name: my_source_clonic
       - name: my_source_tussis
       - name: my_source_resorcinol
