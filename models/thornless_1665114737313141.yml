@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: thornless_1665114737313141
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

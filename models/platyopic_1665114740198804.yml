@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: platyopic_1665114740198804
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

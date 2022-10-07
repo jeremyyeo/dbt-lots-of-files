@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: jabbed_1665114737282777
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

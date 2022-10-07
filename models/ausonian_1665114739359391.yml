@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: ausonian_1665114739359391
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: tandemize_1665114738134776
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

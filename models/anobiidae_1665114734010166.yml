@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: anobiidae_1665114734010166
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: unafeard_16651147344808478
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

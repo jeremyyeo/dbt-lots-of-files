@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: encyclopediast_16651147423759491
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

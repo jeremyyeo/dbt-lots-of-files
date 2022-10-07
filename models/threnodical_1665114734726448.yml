@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: threnodical_1665114734726448
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

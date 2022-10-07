@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: solan_1665114741085541
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

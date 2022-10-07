@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: outhunt_16651147358446789
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

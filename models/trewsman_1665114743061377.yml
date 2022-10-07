@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: trewsman_1665114743061377
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

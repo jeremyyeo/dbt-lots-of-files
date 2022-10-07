@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: impermanent_1665114738083565
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

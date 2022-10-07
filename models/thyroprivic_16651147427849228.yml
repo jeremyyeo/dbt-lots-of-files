@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: thyroprivic_16651147427849228
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

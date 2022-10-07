@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: interpellator_1665114737612015
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: mayfowl_1665114734336664
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

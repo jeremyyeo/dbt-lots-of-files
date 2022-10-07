@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: nonrecoil_1665114742396231
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

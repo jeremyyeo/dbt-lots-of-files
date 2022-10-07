@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: isopilocarpine_1665114742302471
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

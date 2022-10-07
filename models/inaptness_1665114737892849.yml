@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: inaptness_1665114737892849
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

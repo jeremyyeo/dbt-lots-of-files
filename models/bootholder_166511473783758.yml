@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: bootholder_166511473783758
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

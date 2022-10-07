@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: concaver_16651147394663959
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

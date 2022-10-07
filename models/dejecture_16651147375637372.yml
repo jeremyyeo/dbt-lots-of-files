@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: dejecture_16651147375637372
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

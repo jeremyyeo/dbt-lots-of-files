@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: printery_1665114738652699
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

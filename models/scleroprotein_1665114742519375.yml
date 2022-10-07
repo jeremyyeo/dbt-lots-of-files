@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: scleroprotein_1665114742519375
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

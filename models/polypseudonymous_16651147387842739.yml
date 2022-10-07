@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: polypseudonymous_16651147387842739
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

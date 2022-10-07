@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: clausiliidae_1665114734640948
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

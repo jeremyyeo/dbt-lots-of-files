@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: protonematoid_1665114739987894
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

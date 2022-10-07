@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: serialist_1665114738040711
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

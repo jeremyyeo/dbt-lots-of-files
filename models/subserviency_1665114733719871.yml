@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: subserviency_1665114733719871
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

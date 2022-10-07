@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: desuetude_16651147426924102
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

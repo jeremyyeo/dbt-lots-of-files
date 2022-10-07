@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: ungirdled_1665114736658112
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: fleshment_1665114742402009
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: suliote_1665114741822431
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

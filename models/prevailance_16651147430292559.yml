@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: prevailance_16651147430292559
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

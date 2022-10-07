@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: afaint_1665114734002943
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

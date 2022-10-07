@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: laughter_166511474098493
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

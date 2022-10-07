@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: pseudovolcanic_1665114741906121
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

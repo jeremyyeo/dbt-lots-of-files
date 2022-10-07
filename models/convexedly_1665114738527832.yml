@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: convexedly_1665114738527832
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: sartor_16651147354729211
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

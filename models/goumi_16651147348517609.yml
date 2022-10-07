@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: goumi_16651147348517609
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

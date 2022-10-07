@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: pseudochromesthesia_1665114741396818
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: coryphaenid_1665114734289827
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

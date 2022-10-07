@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: dispend_16651147345405881
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

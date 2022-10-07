@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: svarloka_1665114739626923
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

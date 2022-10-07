@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: trait_1665114737161694
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

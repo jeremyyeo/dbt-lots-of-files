@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: ankaramite_1665114733784816
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

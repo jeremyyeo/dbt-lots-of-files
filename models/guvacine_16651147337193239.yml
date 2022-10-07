@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: guvacine_16651147337193239
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

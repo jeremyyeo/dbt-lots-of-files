@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: muzz_1665114736817465
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

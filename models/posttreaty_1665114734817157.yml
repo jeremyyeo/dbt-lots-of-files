@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: posttreaty_1665114734817157
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

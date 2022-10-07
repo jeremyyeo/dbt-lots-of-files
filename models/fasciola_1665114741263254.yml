@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: fasciola_1665114741263254
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

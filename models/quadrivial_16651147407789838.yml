@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: quadrivial_16651147407789838
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

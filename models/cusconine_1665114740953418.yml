@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: cusconine_1665114740953418
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

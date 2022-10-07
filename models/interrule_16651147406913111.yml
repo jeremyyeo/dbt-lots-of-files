@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: interrule_16651147406913111
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

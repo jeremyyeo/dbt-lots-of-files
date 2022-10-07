@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: dishonorableness_16651147372771351
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

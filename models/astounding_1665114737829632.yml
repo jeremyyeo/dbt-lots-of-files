@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: astounding_1665114737829632
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: reportedly_1665114740935831
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

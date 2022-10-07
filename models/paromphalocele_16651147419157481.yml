@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: paromphalocele_16651147419157481
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

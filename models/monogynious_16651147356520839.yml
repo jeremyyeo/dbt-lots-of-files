@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: monogynious_16651147356520839
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: swooned_16651147351621041
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

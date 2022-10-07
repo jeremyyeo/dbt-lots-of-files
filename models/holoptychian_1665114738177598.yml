@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: holoptychian_1665114738177598
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

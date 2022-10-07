@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: horselaughter_1665114737423043
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

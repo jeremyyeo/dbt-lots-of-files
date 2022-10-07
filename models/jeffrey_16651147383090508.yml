@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: jeffrey_16651147383090508
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

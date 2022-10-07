@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: sika_1665114738563363
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

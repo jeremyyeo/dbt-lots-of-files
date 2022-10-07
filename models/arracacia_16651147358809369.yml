@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: arracacia_16651147358809369
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

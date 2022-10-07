@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: heathenesse_16651147418061938
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

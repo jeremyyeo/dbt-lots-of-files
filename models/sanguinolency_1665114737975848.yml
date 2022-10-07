@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: sanguinolency_1665114737975848
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

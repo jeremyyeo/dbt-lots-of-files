@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: pilgarlicky_16651147337151139
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

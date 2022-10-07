@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: miltsick_1665114735474497
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: subcontraoctave_1665114742452673
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

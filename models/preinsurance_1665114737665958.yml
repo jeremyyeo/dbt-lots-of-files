@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: preinsurance_1665114737665958
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

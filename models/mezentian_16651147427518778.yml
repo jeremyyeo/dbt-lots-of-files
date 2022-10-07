@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: mezentian_16651147427518778
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

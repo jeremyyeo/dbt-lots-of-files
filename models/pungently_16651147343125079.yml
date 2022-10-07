@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: pungently_16651147343125079
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

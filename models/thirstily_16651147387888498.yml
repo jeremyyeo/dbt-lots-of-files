@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: thirstily_16651147387888498
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

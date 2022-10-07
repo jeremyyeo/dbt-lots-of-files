@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: siccative_1665114738554935
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

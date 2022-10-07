@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: unspeed_16651147395062568
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

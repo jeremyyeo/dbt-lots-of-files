@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: boled_16651147395949361
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

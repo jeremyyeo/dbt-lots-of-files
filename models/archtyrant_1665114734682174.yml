@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: archtyrant_1665114734682174
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

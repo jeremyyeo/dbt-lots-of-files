@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: proconvention_1665114733857495
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

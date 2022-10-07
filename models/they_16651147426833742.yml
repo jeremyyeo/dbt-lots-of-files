@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: they_16651147426833742
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

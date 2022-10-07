@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: semicriminal_1665114740635364
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

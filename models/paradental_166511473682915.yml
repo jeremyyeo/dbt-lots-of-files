@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: paradental_166511473682915
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: vitalist_1665114740063817
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

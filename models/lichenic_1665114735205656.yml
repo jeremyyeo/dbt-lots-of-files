@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: lichenic_1665114735205656
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

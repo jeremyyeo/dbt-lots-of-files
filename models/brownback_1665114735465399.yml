@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: brownback_1665114735465399
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

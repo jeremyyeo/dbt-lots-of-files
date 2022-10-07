@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: amenism_16651147375821881
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

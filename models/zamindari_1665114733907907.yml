@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: zamindari_1665114733907907
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

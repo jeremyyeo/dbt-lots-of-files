@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: treed_1665114741451981
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

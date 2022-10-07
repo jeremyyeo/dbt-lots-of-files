@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: muratorian_16651147339968011
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

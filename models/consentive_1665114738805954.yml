@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: consentive_1665114738805954
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

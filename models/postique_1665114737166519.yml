@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: postique_1665114737166519
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

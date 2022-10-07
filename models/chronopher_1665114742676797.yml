@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: chronopher_1665114742676797
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

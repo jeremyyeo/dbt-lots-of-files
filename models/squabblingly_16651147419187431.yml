@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: squabblingly_16651147419187431
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: epitactic_16651147426461818
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

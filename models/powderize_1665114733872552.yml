@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: powderize_1665114733872552
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

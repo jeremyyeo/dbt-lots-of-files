@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: vaticide_16651147429597461
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

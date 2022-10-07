@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: angulately_1665114738103712
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

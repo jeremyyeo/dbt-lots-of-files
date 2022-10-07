@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: significantly_16651147360151732
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

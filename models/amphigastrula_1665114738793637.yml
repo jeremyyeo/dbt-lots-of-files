@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: amphigastrula_1665114738793637
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: ess_1665114738466913
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

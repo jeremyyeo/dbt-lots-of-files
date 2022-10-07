@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: apperceptionistic_1665114742329908
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

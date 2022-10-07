@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: embattled_1665114734578519
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

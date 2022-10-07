@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: evincible_16651147391007318
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

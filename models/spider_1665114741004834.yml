@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: spider_1665114741004834
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

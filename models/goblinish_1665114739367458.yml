@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: goblinish_1665114739367458
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

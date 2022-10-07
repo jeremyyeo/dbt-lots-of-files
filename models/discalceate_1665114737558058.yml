@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: discalceate_1665114737558058
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

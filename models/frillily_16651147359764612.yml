@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: frillily_16651147359764612
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

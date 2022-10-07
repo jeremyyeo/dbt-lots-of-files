@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: nonmastery_1665114741640511
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

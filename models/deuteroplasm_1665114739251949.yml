@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: deuteroplasm_1665114739251949
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

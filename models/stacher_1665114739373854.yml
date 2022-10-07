@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: stacher_1665114739373854
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

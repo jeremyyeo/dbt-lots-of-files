@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: patly_16651147401941519
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

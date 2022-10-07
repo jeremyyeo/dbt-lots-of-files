@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: toiler_16651147339306052
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

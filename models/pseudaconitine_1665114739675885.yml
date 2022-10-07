@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: pseudaconitine_1665114739675885
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

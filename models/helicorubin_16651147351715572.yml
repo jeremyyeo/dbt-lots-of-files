@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: helicorubin_16651147351715572
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

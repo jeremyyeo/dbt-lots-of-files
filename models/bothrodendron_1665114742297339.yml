@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: bothrodendron_1665114742297339
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

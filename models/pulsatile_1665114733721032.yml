@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: pulsatile_1665114733721032
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: pyramidlike_1665114733697539
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

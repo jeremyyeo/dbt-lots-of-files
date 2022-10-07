@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: stylometer_1665114734897747
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

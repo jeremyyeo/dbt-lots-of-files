@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: subahship_1665114737930639
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

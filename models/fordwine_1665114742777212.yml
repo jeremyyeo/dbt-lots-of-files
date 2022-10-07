@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: fordwine_1665114742777212
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

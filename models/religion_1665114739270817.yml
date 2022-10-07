@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: religion_1665114739270817
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: septennialist_1665114735057176
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

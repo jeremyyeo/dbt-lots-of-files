@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: counterwager_16651147411058428
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

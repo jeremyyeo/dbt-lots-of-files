@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: bromophenol_16651147355527282
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

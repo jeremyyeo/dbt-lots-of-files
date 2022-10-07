@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: ambitiously_16651147361836312
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

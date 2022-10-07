@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: irrepressive_1665114733730123
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

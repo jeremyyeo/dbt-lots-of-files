@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: unmemorialized_1665114742770595
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

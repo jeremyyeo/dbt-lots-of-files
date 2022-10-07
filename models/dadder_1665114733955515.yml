@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: dadder_1665114733955515
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

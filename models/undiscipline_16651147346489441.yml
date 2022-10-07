@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: undiscipline_16651147346489441
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

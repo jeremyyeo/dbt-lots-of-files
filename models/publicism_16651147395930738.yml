@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: publicism_16651147395930738
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

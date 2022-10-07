@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: telelectroscope_1665114738861036
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

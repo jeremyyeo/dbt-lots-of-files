@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: ashur_1665114738145901
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

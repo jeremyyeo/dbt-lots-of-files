@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: tepomporize_1665114738611949
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

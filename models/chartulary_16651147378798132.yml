@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: chartulary_16651147378798132
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

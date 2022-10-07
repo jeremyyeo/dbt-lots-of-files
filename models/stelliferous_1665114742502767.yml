@@ -1,0 +1,12 @@
+
+version: 2
+models:
+  - name: stelliferous_1665114742502767
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null
